@@ -1,0 +1,35 @@
+Note: https://github.com/rwilson504/PCFControls
+Development workspace:
+https://www.youtube.com/watch?v=Y9J8j5Qydl0
+
+how to run pcf control:
+VS Code terminal: start npm start
+
+How to stop the batch job from VS Code terminal: Ctrl + C
+
+
+
+Support tools for development:
+1. PCF Builder (XTB - XRMToolbox)
+2. PCF Builder (VS Code) - VS Code extension - Install: https://marketplace.visualstudio.com/items?itemName=danish-naglekar.pcf-builder
+3. PCF Generator - By Ivan Ficko
+   - Yeoman Generator plugin
+   - Project generation tool
+   - Install: https://www.npmjs.com/package/generator-pcf
+   
+How to debug PCF control
+1. Toos: Fiddler Everywhere - https://www.telerik.com/download/fiddler/fiddler-everywhere-windows
+2. Steps - Fiddler and PCF project related configuration
+   2.1 Fiddler tool: Enable Auto Responder in "Auto Responder Tab"
+	- Match: Choose the URL Path of the bundle.js captured from live traffic
+	- Action: point to the bundle.js file generated in the out/controls/... folder
+   2.2 Go to the tsconfig.json file, add '"sourceMap": true' inside the "CompilerOptions" attribute
+   2.3 Go to the node_modules folder of the project -> pcf_scrips folder -> open the webpackConfig.js -> find the "oobConfig" const, then add the property as devtool: "source-map"
+   2.4 Rebuild the project
+   2.5 Fiddler tool: Enable Auto Responder in "Auto Responder Tab"
+	- Match: Choose the URL Path of the bundle.js.map captured from live traffic
+	- Action: point to the bundle.js.map file generated in the out/controls/... folder
+	
+3. Ref:
+https://www.youtube.com/watch?v=Y9J8j5Qydl0
+https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/streamline-javascript-development-fiddler-autoresponder
