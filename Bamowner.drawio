@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T03:21:45.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="8HdOeKwNBSfqvEPfMgkG" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T03:24:02.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="a-7yuegYYKN_wx_58Svo" version="17.2.4" type="github">
   <diagram id="sOdIpc5FeAiX6L952kto" name="Page-1">
     <mxGraphModel dx="1038" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NcnTQ4JDluuX0rTkvUmK-1" value="Horizontal Container" style="swimlane;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="80" width="560" height="200" as="geometry" />
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-1" value="SAP" style="swimlane;horizontal=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="680" height="200" as="geometry" />
         </mxCell>
         <mxCell id="NcnTQ4JDluuX0rTkvUmK-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Quy trình xuất B.A.M Owner từ SAP qua CRM&lt;/font&gt;&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" width="470" height="50" as="geometry" />
+          <mxGeometry x="110" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-4" value="CRM   " style="swimlane;horizontal=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="680" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
