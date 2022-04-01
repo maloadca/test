@@ -1,17 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T03:25:06.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="-VJ27D6NjZ55sGCvsnHq" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T03:54:50.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="uLZHk3E51Szjpqi4Gk_p" version="17.2.4" type="github">
   <diagram id="sOdIpc5FeAiX6L952kto" name="Page-1">
     <mxGraphModel dx="1038" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NcnTQ4JDluuX0rTkvUmK-1" value="SAP" style="swimlane;horizontal=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="120" y="60" width="680" height="200" as="geometry" />
+          <mxGeometry x="120" y="30" width="680" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-5" value="Bất đầu" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="NcnTQ4JDluuX0rTkvUmK-1">
+          <mxGeometry x="280" y="4" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="NcnTQ4JDluuX0rTkvUmK-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338.5" y="51" as="sourcePoint" />
+            <mxPoint x="339" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-7" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Xuất File B.A.M Owner&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="NcnTQ4JDluuX0rTkvUmK-1">
+          <mxGeometry x="249" y="121" width="180" height="64" as="geometry" />
         </mxCell>
         <mxCell id="NcnTQ4JDluuX0rTkvUmK-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Quy trình xuất B.A.M Owner từ SAP qua CRM&lt;/font&gt;&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NcnTQ4JDluuX0rTkvUmK-4" value="CRM   " style="swimlane;horizontal=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="120" y="260" width="680" height="200" as="geometry" />
+          <mxGeometry x="120" y="260" width="680" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="NcnTQ4JDluuX0rTkvUmK-4" source="NcnTQ4JDluuX0rTkvUmK-9" target="NcnTQ4JDluuX0rTkvUmK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-9" value="&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CRM Tool đọc file từ SAP&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;startSize=23;" vertex="1" parent="NcnTQ4JDluuX0rTkvUmK-4">
+          <mxGeometry x="269" y="20" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-16" value="&lt;font style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Kiểm tra B.A.M Owner&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;startSize=23;" vertex="1" parent="NcnTQ4JDluuX0rTkvUmK-4">
+          <mxGeometry x="263.5" y="150" width="151" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-22" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="NcnTQ4JDluuX0rTkvUmK-4">
+          <mxGeometry x="190" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-23" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="NcnTQ4JDluuX0rTkvUmK-4">
+          <mxGeometry x="414.5" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-24" value="Kết thúc" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="NcnTQ4JDluuX0rTkvUmK-4">
+          <mxGeometry x="290" y="350" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;jumpSize=0;exitX=0.433;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NcnTQ4JDluuX0rTkvUmK-4" target="NcnTQ4JDluuX0rTkvUmK-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="220" as="sourcePoint" />
+            <mxPoint x="750.04" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="NcnTQ4JDluuX0rTkvUmK-7" target="NcnTQ4JDluuX0rTkvUmK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-18" value="&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Không cập nhật B.A.M owner&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="168" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="NcnTQ4JDluuX0rTkvUmK-16" target="NcnTQ4JDluuX0rTkvUmK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-20" value="&lt;font style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Cập nhật B.A.M Owner&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="NcnTQ4JDluuX0rTkvUmK-16" target="NcnTQ4JDluuX0rTkvUmK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnTQ4JDluuX0rTkvUmK-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;jumpSize=0;exitX=0.433;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NcnTQ4JDluuX0rTkvUmK-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="sourcePoint" />
+            <mxPoint x="410" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="630" />
+              <mxPoint x="400" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
